@@ -1,0 +1,26 @@
+{
+  "name": "create-scss-app",
+  "version": "1.0.0",
+  "description": "Bootstrap app with node-sass and live-server",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass scss/main.scss css/index.css -w",
+    "server": "live-server .",
+    "start": "concurrently \"npm run compile\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugncry/create-scss-app.git"
+  },
+  "author": "Eugene Crystal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugncry/create-scss-app/issues"
+  },
+  "homepage": "https://github.com/ugncry/create-scss-app#readme",
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.4"
+  }
+}
