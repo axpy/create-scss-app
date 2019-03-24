@@ -1,5 +1,5 @@
 # create-scss-app
-Scss &amp; live-server bootstrap
+Scss &amp; live-server
 
 +node-sass
 +live-server
